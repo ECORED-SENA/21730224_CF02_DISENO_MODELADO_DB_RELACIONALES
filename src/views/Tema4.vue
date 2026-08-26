@@ -10,7 +10,7 @@
         .col-xl.mb-4.mb-lg-0
           p Una vez finalizado el diseño de la base de datos, es necesario consolidar la documentación técnica que respalda el proyecto. Esta documentación facilita la implementación, el mantenimiento y la evolución del sistema, además de servir como medio de comunicación entre los diferentes integrantes del equipo de desarrollo.
           .caja-1(data-aos="fade-right")
-            p.mb-0 Uno de los documentos más importantes de esta etapa es el #[b Informe final de diseño de la base de datos], en el que se reúnen los principales artefactos generados durante el proceso de análisis y diseño. Su elaboración permite documentar la estructura de la base de datos y dejar evidencia de las decisiones técnicas adoptadas.
+            p.mb-0 Uno de los documentos más importantes de esta etapa es el #[b informe final de diseño de la base de datos], en el que se reúnen los principales artefactos generados durante el proceso de análisis y diseño. Su elaboración permite documentar la estructura de la base de datos y dejar evidencia de las decisiones técnicas adoptadas.
         .col-xl-auto.col-md-9(data-aos="fade-left")
           figure
             img(src='@/assets/curso/temas/t4/img1.png', alt='' style="width: 500px").m-auto
@@ -27,7 +27,7 @@
           figure
             img(src='@/assets/curso/temas/t1/img1.svg', alt='' style="width: 85px").m-auto
         .col-xl
-          p.mb-0 Dentro del ciclo de vida del desarrollo de #[i software] #[b (#[i Software Development Life Cycle] - SDLC)], el #[b Informe de Diseño de Base de Datos] reúne la información necesaria para describir la arquitectura lógica y física del sistema. Este documento facilita la comprensión del modelo por parte de analistas, desarrolladores y administradores de bases de datos #[b (DBA)], además de servir como referencia durante las fases de implementación y mantenimiento. Para cumplir su propósito, el informe debe reunir las siguientes características: 
+          p.mb-0 Dentro del ciclo de vida del desarrollo de #[i software] #[b (#[i Software Development Life Cycle] - SDLC)], el #[b informe de diseño de base de atos] reúne la información necesaria para describir la arquitectura lógica y física del sistema. Este documento facilita la comprensión del modelo por parte de analistas, desarrolladores y administradores de bases de datos #[b (DBA)], además de servir como referencia durante las fases de implementación y mantenimiento. Para cumplir su propósito, el informe debe reunir las siguientes características: 
       .row.align-items-center.mb-5
         .col-xl-auto(data-aos="fade-right")
           figure.d-none.d-xl-block

@@ -205,14 +205,86 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Dependencia transitiva',
+      significado:
+        'Condición lógica perjudicial para el rendimiento en la cual un atributo no clave depende funcionalmente de otra columna intermedia no clave, la cual a su vez depende de la clave primaria principal. Su eliminación es obligatoria para alcanzar la Tercera Forma Normal (3FN).',
+    },
+    {
+      termino: 'Diccionario de datos',
+      significado:
+        'Repositorio o catálogo formal de metadatos que documenta de manera exhaustiva el diseño físico del esquema de la empresa, detallando para cada tabla y columna sus tipos nativos, longitudes, descripciones semánticas y reglas de validación en el SGBD.',
+    },
+    {
+      termino: 'Ingeniería hacia adelante',
+      significado:
+        'Capacidad avanzada integrada en las herramientas CASE que analiza de forma automatizada un modelo lógico visual de tablas para compilarlo y generar el script de código fuente SQL (DDL) de creación e implantación física del repositorio (Forward engineering).',
+    },
+    {
+      termino: 'Integridad referencial',
+      significado:
+        'Principio obligatorio del paradigma relacional que exige que cada valor almacenado en una llave foránea (FK) coincida de forma exacta con una clave primaria (PK) válida y existente en la tabla maestra de origen, impidiendo la existencia de registros huérfanos.',
+    },
+    {
+      termino: 'Metadatos',
+      significado:
+        'Datos estructurados que describen las características técnicas, procedencia, restricciones y semántica de otros datos. En ingeniería de software, constituyen el núcleo del diccionario de datos de la organización, definiendo conceptualmente los datos acerca de los datos.',
+    },
+    {
+      termino: 'Normalización',
+      significado:
+        'Proceso y algoritmo matemático relacional fundamentado en la teoría de conjuntos que permite descomponer tablas complejas o universales en estructuras atómicas puras, minimizando la redundancia física y erradicando anomalías de inserción, actualización y borrado.',
+    },
+    {
+      termino: 'SGBD',
+      significado:
+        'Sistema gestor de bases de datos. Complejo entorno de software encargado de servir como interfaz entre la base de datos física, los usuarios y las aplicaciones del sector productivo. Controla de forma nativa el almacenamiento, la seguridad, la recuperación ante fallos y el cumplimiento estricto de las propiedades ACID.',
+    },
+    {
+      termino: 'TI',
+      significado:
+        'Tecnologías de la información. Conjunto convergente de recursos tecnológicos, herramientas de hardware, arquitecturas de software, redes de conectividad y metodologías de ingeniería orientados a automatizar el procesamiento, almacenamiento, protección y transmisión de los activos informáticos corporativos.',
+    },
+    {
+      termino: 'Tipos de datos nativos',
+      significado:
+        'Conjunto de formatos y estructuras de almacenamiento predefinidos y reconocidos de manera interna por un motor relacional específico (SGBD) para categorizar y limitar el dominio de los atributos en el nivel físico (por ejemplo: VARCHAR, INT, DECIMAL, TIMESTAMP).',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'CEPETEL. (2023). Introducción a bases de datos y programación SQL.',
+      link: 'https://www.cepetel.org.ar/wp-content/uploads/2024/02/Introduccion-a-Bases-de-Datos-y-Programacion-SQL.pdf',
+    },
+    {
+      referencia:
+        'Camps Paré, R., Casillas Santillán, L., Costal Costa, D., Ginestà, M., Martín Escofet, C., & Pérez Mora, O. (2024). Software libre. Universitat Oberta de Catalunya.',
+      link: 'https://www.uoc.edu/pdf/masters/oficiales/img/913.pdf',
+    },
+    {
+      referencia:
+        'Casas Roma, J. (2013). Introducción al diseño de bases de datos. Universitat Oberta de Catalunya.',
+      link: 'https://gc.scalahed.com/recursos/files/r161r/w25213w/M1CDN112_S1_Introduccion_al_diseno_de_bases.pdf',
+    },
+    {
+      referencia:
+        'Marqués, M. (2011). Bases de datos. Departament d’Enginyeria i Ciència dels Computadors, Universitat Jaume I. ISBN 978-84-693-0146-3.',
       link: '',
+    },
+    {
+      referencia:
+        'Moncayo Gutiérrez, K. A., Alarcón Josué, S., Suárez Colín, S., Barrientos, A., & Isaí, R. (2021). Estándar ISO/IEC 12207: Information technology—Software life cycle processes. Universidad Veracruzana.',
+      link: 'https://www.uv.mx/personal/ermeneses/files/2021/05/Estandar_12207-FebJul2021.pdf',
+    },
+    {
+      referencia:
+        'Torregrosa García, B. (2020). Modelos de datos. Universitat Oberta de Catalunya.',
+      link: 'https://openaccess.uoc.edu/server/api/core/bitstreams/cd624356-d7bd-4022-888f-e2324ee440aa/content',
+    },
+    {
+      referencia:
+        'Universidad de Cantabria, ISTR – Ingeniería Software y Tiempo Real. (2007). IEEE Std 830-1998: Especificaciones de los requisitos del software.',
+      link: 'https://www.ctr.unican.es/asignaturas/is1/ieee830_esp.pdf',
     },
   ],
   creditos: [
@@ -221,11 +293,12 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Líder del Ecosistema',
+          cargo:
+            'Profesional 06 - Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Olga Constanza Bermúdez',
+          nombre: 'Olga Constanza Bermúdez Jaimes',
           cargo: 'Responsable de línea de producción Huila',
           centro: 'Dirección General',
         },
@@ -235,9 +308,16 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: '',
-          cargo: '',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Joinner Enrique Osorio Martínez',
+          cargo: 'Experto temático',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora instruccional',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -245,20 +325,50 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: '',
+          nombre: 'Carlos Julian Ramirez Benitez',
           cargo: 'Diseñador de contenidos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
+          nombre: 'Cristian Fernando Martínez Sánchez',
           cargo: 'Desarrollador <i>full stack</i>',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
-          cargo: '',
+          nombre: 'Alejandro Delgado Acosta',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Cristhian Giovanni Gordillo Segura',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Juan Pablo Rojas Polania',
+          cargo: 'Animador y productor multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Carlos Eduardo Garavito Parada',
+          cargo: 'Animador y productor multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'María Carolina Tamayo López',
+          cargo: 'Locución',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'German Acosta Ramos',
+          cargo: 'Locución',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
@@ -268,13 +378,25 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '',
+          nombre: 'Ricardo Oliveros Zambrano ',
           cargo: 'Validador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
+          nombre: 'Aixa Natalia Sendoya Fernández',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Anyerson Wilfredo Pizo Ossa',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',

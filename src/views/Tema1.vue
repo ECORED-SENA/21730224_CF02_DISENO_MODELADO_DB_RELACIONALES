@@ -27,7 +27,7 @@
               .row.justify-content-center.align-items-center
                 .col-xl-6.mb-4
                   h4 Anomalía de inserción (#[i Insert])
-                  p.mb-0 Ocurre cuando no es posible registrar un nuevo dato porque el esquema exige previamente la existencia de otra información relacionada. Por ejemplo, en una tabla que combina datos de centros y cursos, no puede registrarse un nuevo #[b Centro de Formación] si aún no tiene un curso asociado, debido a que la clave primaria requiere ambos valores.
+                  p.mb-0 Ocurre cuando no es posible registrar un nuevo dato porque el esquema exige previamente la existencia de otra información relacionada. Por ejemplo, en una tabla que combina datos de centros y cursos, no puede registrarse un nuevo #[b centro de formación] si aún no tiene un curso asociado, debido a que la clave primaria requiere ambos valores.
                 .col-xl-6
                   figure
                     img(src='@/assets/curso/temas/t1/img2.png', alt='' style="max-width: 500px").m-auto
@@ -41,7 +41,7 @@
               .row.justify-content-center.align-items-center
                 .col-xl-6.mb-4
                   h4 Anomalía de borrado (#[i Delete])
-                  p.mb-0 Se produce cuando la eliminación de un registro ocasiona también la pérdida de otra información necesaria para la organización. Por ejemplo, si se elimina el último registro que relaciona un #[b Aprendiz] con una determinada #[b Competencia], también podría perderse la información descriptiva de dicha competencia si esta solo existía en ese registro.
+                  p.mb-0 Se produce cuando la eliminación de un registro ocasiona también la pérdida de otra información necesaria para la organización. Por ejemplo, si se elimina el último registro que relaciona un #[b aprendiz] con una determinada #[b competencia], también podría perderse la información descriptiva de dicha competencia si esta solo existía en ese registro.
                 .col-xl-6
                   figure
                     img(src='@/assets/curso/temas/t1/img4.png', alt='' style="max-width: 500px").m-auto

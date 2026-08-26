@@ -72,7 +72,7 @@
                 img(src='@/assets/curso/temas/t2/img6.svg', alt='' style="max-width: 100px")
             .col-xl
               h2.mb-0 Restricciones de transición
-          p.mb-0 Controlan los cambios de estado permitidos para un registro al comparar el valor actual con el nuevo valor que se pretende almacenar. Su propósito es impedir transiciones que contradigan las reglas del negocio. Por ejemplo, en un sistema logístico un despacho puede cambiar de #[b Pendiente] a #[b Enviado] y posteriormente a #[b Entregado]; sin embargo, no debería regresar de #[b Entregado] a #[b Pendiente], ya que ello afectaría la trazabilidad del proceso.
+          p.mb-0 Controlan los cambios de estado permitidos para un registro al comparar el valor actual con el nuevo valor que se pretende almacenar. Su propósito es impedir transiciones que contradigan las reglas del negocio. Por ejemplo, en un sistema logístico, un despacho puede cambiar de #[b Pendiente] a #[b Enviado] y posteriormente a #[b Entregado]; sin embargo, no debería regresar de #[b Entregado] a #[b Pendiente], ya que ello afectaría la trazabilidad del proceso.
         .col-xl-6.col-md-10.tarjeta.color-primario.p-5
           .row.d-flex.align-items-end.mb-4
             .col-xl-auto.mb-3.mb-lg-0(data-aos="fade-right")

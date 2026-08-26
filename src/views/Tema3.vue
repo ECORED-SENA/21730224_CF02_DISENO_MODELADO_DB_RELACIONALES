@@ -93,8 +93,8 @@
       p.mb-5 Un diseño con alta cohesión y bajo acoplamiento favorece la modularidad del modelo, simplifica el mantenimiento y mejora el desempeño general de la base de datos.
       .titulo-tercer-nivel.mb-5(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/t2/img13.png')
-        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Caso de uso: matriz de trazabilidad y auditoría estática para #[i ecommerce]
-      p.mb-5 Como aplicación práctica, se realiza una revisión técnica del modelo relacional del proyecto ecommerce, previamente normalizado hasta la #[b Tercera Forma Normal (3FN)]. Durante la revisión, el aprendiz participa junto con el instructor y el equipo de aseguramiento de la calidad #[b (QA)] en la verificación de los requisitos del sistema. Como resultado, se elabora una matriz de trazabilidad que relaciona cada requerimiento con la estructura de la base de datos y los mecanismos de validación implementados.
+        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Caso de uso: matriz de trazabilidad y auditoría estática para #[i e-commerce]
+      p.mb-5 Como aplicación práctica, se realiza una revisión técnica del modelo relacional del proyecto <i>e-commerce</i>, previamente normalizado hasta la #[b Tercera Forma Normal (3FN)]. Durante la revisión, el aprendiz participa junto con el instructor y el equipo de aseguramiento de la calidad #[b (QA)] en la verificación de los requisitos del sistema. Como resultado, se elabora una matriz de trazabilidad que relaciona cada requerimiento con la estructura de la base de datos y los mecanismos de validación implementados.
       .row.justify-content-center.mb-5
         .col-xl-10
           .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
