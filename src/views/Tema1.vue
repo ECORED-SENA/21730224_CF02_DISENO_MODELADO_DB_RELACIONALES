@@ -9,7 +9,7 @@
       p.mb-5 A continuación, se presenta un recurso educativo sobre la optimización de estructuras mediante la teoría de la normalización, un proceso fundamental en el diseño de bases de datos relacionales que permite organizar la información de manera eficiente, reducir la redundancia y fortalecer la integridad de los datos en los sistemas de información: 
       figure(data-aos="zoom-in").mb-0
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/cOlldUN1f-Y?si=Sy1khQc0delO473k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption.fit___figcaption-video Video. Optimización de estructuras mediante la teoría de la normalización
       Separador
       #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
