@@ -27,7 +27,7 @@
           figure
             img(src='@/assets/curso/temas/t1/img1.svg', alt='' style="width: 85px").m-auto
         .col-xl
-          p.mb-0 Dentro del ciclo de vida del desarrollo de #[i software] #[b (#[i Software Development Life Cycle] - SDLC)], el #[b informe de diseño de base de atos] reúne la información necesaria para describir la arquitectura lógica y física del sistema. Este documento facilita la comprensión del modelo por parte de analistas, desarrolladores y administradores de bases de datos #[b (DBA)], además de servir como referencia durante las fases de implementación y mantenimiento. Para cumplir su propósito, el informe debe reunir las siguientes características: 
+          p.mb-0 Dentro del ciclo de vida del desarrollo de #[i software] #[b (#[i Software Development Life Cycle] - SDLC)], el #[b informe de diseño de base de datos] reúne la información necesaria para describir la arquitectura lógica y física del sistema. Este documento facilita la comprensión del modelo por parte de analistas, desarrolladores y administradores de bases de datos #[b (DBA)], además de servir como referencia durante las fases de implementación y mantenimiento. Para cumplir su propósito, el informe debe reunir las siguientes características: 
       .row.align-items-center.mb-5
         .col-xl-auto(data-aos="fade-right")
           figure.d-none.d-xl-block

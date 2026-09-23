@@ -10,7 +10,7 @@
         .col-xl.mb-4.mb-lg-0
           p El proceso de normalización desarrollado en la unidad anterior permite optimizar la estructura de las tablas y reducir la redundancia de la información. Sin embargo, por sí solo no garantiza que los datos registrados sean válidos, consistentes y acordes con las reglas del negocio. Para ello, es necesario definir #[b restricciones de integridad], las cuales permiten preservar la calidad y confiabilidad de la información almacenada en la base de datos (Casas Roma, 2013).
           .caja-1(data-aos="fade-right")
-            p.mb-0 Estas restricciones son implementadas por el #[b Sistema Gestor de Bases de Datos (SGBD)], que verifica automáticamente el cumplimiento de las reglas establecidas y evita operaciones que puedan afectar la consistencia de la información.
+            p.mb-0 Estas restricciones son implementadas por el #[b sistema gestor de bases de datos (SGBD)], que verifica automáticamente el cumplimiento de las reglas establecidas y evita operaciones que puedan afectar la consistencia de la información.
         .col-xl-auto.col-md-9(data-aos="fade-left")
           figure
             img(src='@/assets/curso/temas/t2/img1.png', alt='' style="width: 500px").m-auto

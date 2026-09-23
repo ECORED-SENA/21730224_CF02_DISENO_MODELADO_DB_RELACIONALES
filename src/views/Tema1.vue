@@ -383,7 +383,7 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-xl.mb-4.mb-lg-0
           .caja-1.color-1(data-aos="fade-right").mb-3
-            p Al analizar esta nueva estructura se identifican las siguientes dependencias funcionales parciales:
+            p Al analizar esta nueva estructura, se identifican las siguientes dependencias funcionales parciales:
             ul.fa-ul.estilo___ul.mb-0
               li.mb-0
                 span.fa-li
@@ -479,7 +479,7 @@
                 tr.ajuste-color-tabla
                   td.ajuste-border-tabla.texto-left.text-weight-bold DETALLE_PEDIDO
                   td.texto-left id_pedido [PK, FK1], id_producto [PK, FK2], cantidad_solicitada
-      .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-0
         .col-xl-10
           .caja-6.mb-5(data-aos="zoom-in")
             .row.justify-content-center.mb-5.text-center
@@ -598,7 +598,7 @@
                         td.ajuste-border-tabla.texto-left PR410
                         td.texto-left 1
             .row.justify-content-center.mb-0
-              .col-xl-6
+              .col-xl-auto
                 .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
                   h5 Tabla 10.
                   span Cliente_Telefono

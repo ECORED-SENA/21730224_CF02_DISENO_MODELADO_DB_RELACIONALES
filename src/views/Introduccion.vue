@@ -11,7 +11,7 @@
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/intro/img1.jpg')})` }")
         .bloque-texto-g__texto.p-4
-          p Una vez estructurados los modelos lógicos de una base de datos relacional, el proceso de desarrollo de software exige someterlos a una fase rigurosa de validación y optimización técnica. Aunque un diseño pueda parecer correcto desde el punto de vista estructural, es posible que presente inconsistencias que generen redundancia de datos, anomalías de actualización o problemas de integridad durante la operación del sistema. En este material de formación, el aprendiz desarrollará las competencias necesarias para analizar, depurar y validar la consistencia del modelo lógico, garantizando una base de datos robusta, eficiente y alineada con las buenas prácticas del diseño relacional.
+          p Una vez estructurados los modelos lógicos de una base de datos relacional, el proceso de desarrollo de #[i software] exige someterlos a una fase rigurosa de validación y optimización técnica. Aunque un diseño pueda parecer correcto desde el punto de vista estructural, es posible que presente inconsistencias que generen redundancia de datos, anomalías de actualización o problemas de integridad durante la operación del sistema. En este material de formación, el aprendiz desarrollará las competencias necesarias para analizar, depurar y validar la consistencia del modelo lógico, garantizando una base de datos robusta, eficiente y alineada con las buenas prácticas del diseño relacional.
       .row.justify-content-center.align-items-center.mb-0
         .col-xl-auto.col-md-9.mb-4.mb-lg-0(data-aos="fade-right")
           figure
